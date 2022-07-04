@@ -70,8 +70,8 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
 mp_drawing = mp.solutions.drawing_utils
 
-bot_token = "5338689548:AAGRkUlgH5fzaTztZGjjnSbytA95n5_1rFQ"
-chat_id = "1103873621"
+bot_token = "<telegram_bot_token>"
+chat_id = "chat_id"
 
 p_time = 0
 left_cart_font_size = 1.5
