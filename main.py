@@ -64,7 +64,7 @@ def get_lm_list(frame: np.array, draw=True) -> list:
     return [frame, landmark_list]
 
 
-cap = cv2.VideoCapture(r"Videos/vid2.mp4")
+cap = cv2.VideoCapture(r"vid2.mp4")
 # cap = cv2.VideoCapture(0)
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose()
